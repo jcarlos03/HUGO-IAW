@@ -1,0 +1,25 @@
+baseURL = 'https://josecarlosasir.000webhostapp.com/'
+languageCode = 'en-us'
+title = 'Papelerias Mari Carmen'
+theme = "BeautifulHugo"
+
+[languages]
+  [languages.en] 
+    contentDir = "content/en" # English
+[params.homeInfoParams]
+Title = '¡Bienvenidos!'
+Content = 'Aqui encontraras todos nuestros productos que encontraras en Papelerias Mari Carmen'
+
+[menu]
+[[menu.main]]
+    name = 'Home'
+    pageRef = '/'
+    weight = 10
+[[menu.main]]
+    name = 'Papeles A4'
+    pageRef = '/posts'
+    weight = 20
+[[menu.main]]
+    name = 'Papelerias Mari Carmen'
+    pageRef = '/MariCarmen'
+    weight = 30
